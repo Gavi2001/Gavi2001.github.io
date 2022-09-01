@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://Gavi2001.github.io</id>
+    <title>小gavi的脑残日记</title>
+    <updated>2022-09-01T09:56:55.489Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://Gavi2001.github.io"/>
+    <link rel="self" href="https://Gavi2001.github.io/atom.xml"/>
+    <subtitle>适当的摆烂，有助于身心健康</subtitle>
+    <logo>https://Gavi2001.github.io/images/avatar.png</logo>
+    <icon>https://Gavi2001.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2022, 小gavi的脑残日记</rights>
+    <entry>
+        <title type="html"><![CDATA[米游社抓取COOKIE，用于米游社自动签到，自动做米游社任务]]></title>
+        <id>https://Gavi2001.github.io/post/mi-you-she-zhua-qu-cookieyong-yu-mi-you-she-zi-dong-qian-dao-zi-dong-zuo-mi-you-she-ren-wu/</id>
+        <link href="https://Gavi2001.github.io/post/mi-you-she-zhua-qu-cookieyong-yu-mi-you-she-zi-dong-qian-dao-zi-dong-zuo-mi-you-she-ren-wu/">
+        </link>
+        <updated>2022-09-01T08:21:46.000Z</updated>
+        <content type="html"><![CDATA[<p><strong>项目地址</strong><br>
+http://www.gavi.top:26666/</p>
+<p><strong>打开浏览器新建隐身模式</strong><br>
+Ctrl+Shift+N    #新建浏览器<br>
+<img src="https://Gavi2001.github.io/post-images/1662020619307.png" alt="" loading="lazy"><br>
+打开    http://bbs.mihoyo.com/ys/   并登入<br>
+新建标签页（也要在隐身模式下打开），打开    http://user.mihoyo.com/   并登入<br>
+按下F12打开开发者模式，EDGE浏览器点击”控制“、Chrome浏览器点击”Console“<br>
+<img src="https://Gavi2001.github.io/post-images/1662021041281.png" alt="" loading="lazy"></p>
+<p>在最底下输入这串代码，然后点击确定，你的ck会自动复制到剪贴板</p>
+<ul>
+<li>var cookie=document.cookie;var ask=confirm('Cookie:'+cookie+'\n\nDo you want to copy the cookie to the clipboard?');if(ask==true){copy(cookie);msg=cookie}else{msg='Cancel'}</li>
+</ul>
+<figure data-type="image" tabindex="1"><img src="https://Gavi2001.github.io/post-images/1662021142969.png" alt="" loading="lazy"></figure>
+<p>然后按照格式填入<br>
+ltuid=XXX; cookie_token=XXX; account_id=XXX; login_uid=XXX;<br>
+login_ticket=XXX;</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[关于]]></title>
+        <id>https://Gavi2001.github.io/post/about/</id>
+        <link href="https://Gavi2001.github.io/post/about/">
+        </link>
+        <updated>2019-01-25T11:09:48.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>欢迎来到我的小站呀，很高兴遇见你！🤝</p>
+</blockquote>
+<h2 id="关于本站">🏠 关于本站</h2>
+<p>gavi的脑瘫日记</p>
+<h2 id="博主是谁">👨‍💻 博主是谁</h2>
+<p>平平无奇的程序员</p>
+<h2 id="兴趣爱好">⛹ 兴趣爱好</h2>
+<p>打apex，看番，听歌，偶尔打打篮球</p>
+<h2 id="联系我呀">📬 联系我呀</h2>
+<p>Q：2270829959<br>
+xv：VVeiiiiiii<br>
+<img src="https://Gavi2001.github.io/post-images/1662019916054.jpg" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
+</feed>

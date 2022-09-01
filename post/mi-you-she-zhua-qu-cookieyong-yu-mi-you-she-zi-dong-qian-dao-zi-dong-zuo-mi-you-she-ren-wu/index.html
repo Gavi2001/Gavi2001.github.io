@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>米游社抓取COOKIE，用于米游社自动签到，自动做米游社任务 | 小gavi的脑残日记</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://Gavi2001.github.io/favicon.ico?v=1662025675915">
+<link rel="stylesheet" href="https://Gavi2001.github.io/styles/main.css">
+
+
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+
+    <meta name="description" content="项目地址
+http://www.gavi.top:26666/
+打开浏览器新建隐身模式
+Ctrl+Shift+N    #新建浏览器
+
+打开    http://bbs.mihoyo.com/ys/   并登入
+新建标签页（也要在隐身模式下..." />
+    <meta name="keywords" content="原神" />
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://Gavi2001.github.io">
+        <img src="https://Gavi2001.github.io/images/avatar.png?v=1662025675915" class="site-logo">
+        <h1 class="site-title">小gavi的脑残日记</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      适当的摆烂，有助于身心健康
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://Gavi2001.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">米游社抓取COOKIE，用于米游社自动签到，自动做米游社任务</h2>
+            <div class="post-date">2022-09-01</div>
+            
+              <div class="feature-container" style="background-image: url('https://Gavi2001.github.io/post-images/mi-you-she-zhua-qu-cookieyong-yu-mi-you-she-zi-dong-qian-dao-zi-dong-zuo-mi-you-she-ren-wu.jpg')">
+              </div>
+            
+            <div class="post-content" v-pre>
+              <p><strong>项目地址</strong><br>
+http://www.gavi.top:26666/</p>
+<p><strong>打开浏览器新建隐身模式</strong><br>
+Ctrl+Shift+N    #新建浏览器<br>
+<img src="https://Gavi2001.github.io/post-images/1662020619307.png" alt="" loading="lazy"><br>
+打开    http://bbs.mihoyo.com/ys/   并登入<br>
+新建标签页（也要在隐身模式下打开），打开    http://user.mihoyo.com/   并登入<br>
+按下F12打开开发者模式，EDGE浏览器点击”控制“、Chrome浏览器点击”Console“<br>
+<img src="https://Gavi2001.github.io/post-images/1662021041281.png" alt="" loading="lazy"></p>
+<p>在最底下输入这串代码，然后点击确定，你的ck会自动复制到剪贴板</p>
+<ul>
+<li>var cookie=document.cookie;var ask=confirm('Cookie:'+cookie+'\n\nDo you want to copy the cookie to the clipboard?');if(ask==true){copy(cookie);msg=cookie}else{msg='Cancel'}</li>
+</ul>
+<figure data-type="image" tabindex="1"><img src="https://Gavi2001.github.io/post-images/1662021142969.png" alt="" loading="lazy"></figure>
+<p>然后按照格式填入<br>
+ltuid=XXX; cookie_token=XXX; account_id=XXX; login_uid=XXX;<br>
+login_ticket=XXX;</p>
+
+            </div>
+            
+              <div class="tag-container">
+                
+                  <a href="https://Gavi2001.github.io/tag/1Bz4GllZE/" class="tag">
+                    原神
+                  </a>
+                
+              </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://Gavi2001.github.io/post/about/">
+                  <h3 class="post-title">
+                    关于
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+              
+                <div id="gitalk-container" data-aos="fade-in"></div>
+              
+
+              
+            
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
+
+AOS.init();
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: 'c69ca45ae00f86250cb1',
+        clientSecret: 'dea50004eab24c94b761733a19f351ba586e5f7a',
+        repo: 'Gavi2001.github.io',
+        owner: 'Gavi2001',
+        admin: ['Gavi2001'],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
+
+
+
+
+  </body>
+</html>
